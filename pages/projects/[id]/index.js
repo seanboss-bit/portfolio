@@ -2,17 +2,40 @@ import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
 import { useRouter } from "next/router";
-import { projectData } from "../../projectsData";
+import { projectData } from "../../../projectsData";
 import Head from "next/head";
+import { useEffect, useState } from "react";
 
 const Index = () => {
+  const [data, setData] = useState(projectData);
+  const [demo, setDemo] = useState("/");
+  const [code, setCode] = useState("/");
   const router = useRouter();
   const { id } = router.query;
-  let isMatch = projectData.find((item) => {
+  let isMatch = data.find((item) => {
     if (id == item.id) {
       return item;
     }
   });
+
+  useEffect(() => {
+    if (id == 1) {
+      setDemo(`${projectData[0].demo}`);
+      setCode(`${projectData[0].code}`);
+    } else if (id == 2) {
+      setDemo(`${projectData[1].demo}`);
+      setCode(`${projectData[1].code}`);
+    } else if (id == 3) {
+      setDemo(`${projectData[2].demo}`);
+      setCode(`${projectData[2].code}`);
+    } else if (id == 4) {
+      setDemo(`${projectData[3].demo}`);
+      setCode(`${projectData[3].code}`);
+    } else if (id == 5) {
+      setDemo(`${projectData[4].demo}`);
+      setCode(`${projectData[4].code}`);
+    }
+  }, [id]);
 
   return (
     <div className="w-full">
@@ -42,10 +65,10 @@ const Index = () => {
           <h2 className="capitalize">overview</h2>
           <p className="capitalize my-3">{isMatch?.projectInfo}</p>
 
-          <Link href={isMatch.demo} target="_blank">
+          <Link href={demo} target="_blank">
             <button className="px-8 py-2 mr-8 capitalize">demo</button>
           </Link>
-          <Link href={isMatch.code} target="_blank">
+          <Link href={code} target="_blank">
             <button className="px-8 py-2 capitalize">code</button>
           </Link>
         </div>
@@ -56,7 +79,10 @@ const Index = () => {
             </p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               {isMatch?.technologies.map((item) => (
-                <p className="text-gray-600 py-2 flex items-center capitalize">
+                <p
+                  className="text-gray-600 py-2 flex items-center capitalize"
+                  key={item}
+                >
                   <RiRadioButtonFill className="pr-1" />
                   {item}
                 </p>

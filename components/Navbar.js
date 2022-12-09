@@ -32,7 +32,7 @@ const Navbar = () => {
   return (
     <div style={{background: `${nav}`}} className="fixed w-full top-0 h-20 shadow-lg z-[100] px-6">
       <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image alt="#" src="" width={125} height="50" />
+        <Image alt="#" src="/../public/images/motion2.webp" width={60} height="50" />
 
         <div>
           <ul style={{color: `${linkColor}`}} className="hidden sm:flex">
@@ -66,7 +66,7 @@ const Navbar = () => {
           }
         >
           <div className="flex items-center justify-between w-full mb-3">
-            <Image src="" alt="#" width={87} height={35} />
+            <Image src="/../public/images/motion2.webp" alt="#" width={87} height={35} />
             <div
               className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
               onClick={() => setNavOpen(false)}
