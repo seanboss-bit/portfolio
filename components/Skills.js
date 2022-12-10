@@ -1,57 +1,70 @@
 import Image from "next/image";
+import htmlImg from "../public/images/html.png";
+import cssImg from "../public/images/css.png";
+import jsImg from "../public/images/js.png";
+import reactImg from "../public/images/react.png";
+import nextImg from "../public/images/next3.png";
+import nodeImg from "../public/images/node4.png";
+import mongoImg from "../public/images/mongo5.png";
+import gitImg from "../public/images/github.png";
+import bootstrapImg from "../public/images/bootstrap.png";
+import sassImg from "../public/images/sass.png";
+import tailwindImg from "../public/images/tailwind.png";
+import muiImg from "../public/images/mui.png";
+import reduxImg from "../public/images/redux.png";
 
 const Skills = () => {
   const skill = [
     {
-      img: "/../public/images/html.png",
+      img: htmlImg,
       name: "html",
     },
     {
-      img: "/../public/images/css.png",
+      img: cssImg,
       name: "css",
     },
     {
-      img: "/../public/images/js.png",
+      img: jsImg,
       name: "javascript",
     },
     {
-      img: "/../public/images/react.png",
+      img: reactImg,
       name: "react",
     },
     {
-      img: "/../public/images/next3.png",
+      img: nextImg,
       name: "next",
     },
     {
-      img: "/../public/images/node4.png",
+      img: nodeImg,
       name: "nodejs",
     },
     {
-      img: "/../public/images/mongo5.png",
+      img: mongoImg,
       name: "mongo db",
     },
     {
-      img: "/../public/images/github.png",
+      img: gitImg,
       name: "github",
     },
     {
-      img: "/../public/images/bootstrap.png",
+      img: bootstrapImg,
       name: "bootstrap",
     },
     {
-      img: "/../public/images/sass.png",
+      img: sassImg,
       name: "sass",
     },
     {
-      img: "/../public/images/tailwind.png",
+      img: tailwindImg,
       name: "tailwind",
     },
     {
-      img: "/../public/images/mui.png",
+      img: muiImg,
       name: "material ui",
     },
     {
-      img: "/../public/images/redux.png",
+      img: reduxImg,
       name: "redux",
     },
   ];
@@ -66,7 +79,10 @@ const Skills = () => {
         </h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 ">
           {skill.map((item) => (
-            <div className="p-6 shadow-md shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-150" key={item.name}>
+            <div
+              className="p-6 shadow-md shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-150"
+              key={item.name}
+            >
               <div className="grid grid-cols-2 gap-4 justify-center items-center place-content-center">
                 <div className="m-auto">
                   <Image src={item.img} alt="#" width={64} height={64} />
