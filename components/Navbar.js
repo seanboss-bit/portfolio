@@ -6,6 +6,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
+import logoImg from "../public/images/logo.jpeg";
 
 const Navbar = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -32,7 +33,7 @@ const Navbar = () => {
   return (
     <div style={{background: `${nav}`}} className="fixed w-full top-0 h-20 shadow-lg z-[100] px-6">
       <div className=" flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image alt="#" src="/../public/images/motion2.webp" width={60} height="50" />
+        <Image alt="#" src={logoImg} width={60} height="50" />
 
         <div>
           <ul style={{color: `${linkColor}`}} className="hidden sm:flex">

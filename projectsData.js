@@ -3,8 +3,21 @@ import huluImg from "./public/images/Screenshot2.png";
 import weatherImg from "./public/images/Screenshot3.png";
 import netflixImg from "./public/images/Screenshot4.png";
 import photoImg from "./public/images/Screenshot5.png";
+import manageImg from "./public/images/Screenshot6.png";
 
 export const projectData = [
+  {
+    id: 6,
+    name: "manage ui",
+    tech: "html",
+    img: manageImg,
+    overviewTech: "tailwind cli",
+    projectInfo:
+      "this is a ui built with html , css and tailwind with vanilla javascript",
+    technologies: ["html", "css", "javascript", "tailwind"],
+    demo: "https://netflix-you.netlify.app",
+    code: "https://github.com/seanboss-bit/netflix",
+  },
   {
     id: 1,
     name: "real estate web",
