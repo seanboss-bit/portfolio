@@ -15,8 +15,8 @@ export const projectData = [
     projectInfo:
       "this is a ui built with html , css and tailwind with vanilla javascript",
     technologies: ["html", "css", "javascript", "tailwind"],
-    demo: "https://netflix-you.netlify.app",
-    code: "https://github.com/seanboss-bit/netflix",
+    demo: "https://melodic-sawine-da82ca.netlify.app",
+    code: "https://github.com/seanboss-bit/manage-design",
   },
   {
     id: 1,
