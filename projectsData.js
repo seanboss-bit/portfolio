@@ -4,8 +4,29 @@ import weatherImg from "./public/images/Screenshot3.png";
 import netflixImg from "./public/images/Screenshot4.png";
 import photoImg from "./public/images/Screenshot5.png";
 import manageImg from "./public/images/Screenshot6.png";
+import paraImg from "./public/images/Screenshot7.png";
 
 export const projectData = [
+  {
+    id: 7,
+    name: "Paraplug",
+    tech: "next js",
+    img: paraImg,
+    overviewTech: "next js",
+    projectInfo:
+      "this an e-commerce platform that allows users to shop for sneakers wordwide",
+    technologies: [
+      "next js",
+      "paystack",
+      "javascript",
+      "css",
+      "redux",
+      "mongodb",
+      "nodemailer",
+    ],
+    demo: "https://paraplug.netlify.app/",
+    code: "https://github.com/seanboss-bit/para-plug",
+  },
   {
     id: 6,
     name: "manage ui",
