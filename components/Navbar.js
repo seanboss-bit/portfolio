@@ -67,7 +67,7 @@ const Navbar = () => {
           }
         >
           <div className="flex items-center justify-between w-full mb-3">
-            <Image src="/../public/images/motion2.webp" alt="#" width={87} height={35} />
+            <Image src={logoImg} alt="#" width={87} height={35} />
             <div
               className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer"
               onClick={() => setNavOpen(false)}

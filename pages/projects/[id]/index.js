@@ -34,6 +34,12 @@ const Index = () => {
     } else if (id == 5) {
       setDemo(`${projectData[4].demo}`);
       setCode(`${projectData[4].code}`);
+    } else if (id == 5) {
+      setDemo(`${projectData[5].demo}`);
+      setCode(`${projectData[5].code}`);
+    } else if (id == 5) {
+      setDemo(`${projectData[6].demo}`);
+      setCode(`${projectData[6].code}`);
     }
   }, [id]);
 

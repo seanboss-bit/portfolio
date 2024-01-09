@@ -8,7 +8,7 @@ import paraImg from "./public/images/Screenshot7.png";
 
 export const projectData = [
   {
-    id: 7,
+    id: 1,
     name: "Paraplug",
     tech: "next js",
     img: paraImg,
@@ -28,7 +28,7 @@ export const projectData = [
     code: "https://github.com/seanboss-bit/para-plug",
   },
   {
-    id: 6,
+    id: 2,
     name: "manage ui",
     tech: "html",
     img: manageImg,
@@ -40,7 +40,7 @@ export const projectData = [
     code: "https://github.com/seanboss-bit/manage-design",
   },
   {
-    id: 1,
+    id: 3,
     name: "real estate web",
     tech: "react js",
     img: realEstate,
@@ -62,7 +62,7 @@ export const projectData = [
     code: "https://github.com/seanboss-bit/ab-homes",
   },
   {
-    id: 2,
+    id: 4,
     name: "hulu UI",
     tech: "next js",
     img: huluImg,
@@ -74,7 +74,7 @@ export const projectData = [
     code: "https://github.com/seanboss-bit/hulu-next-clone",
   },
   {
-    id: 3,
+    id: 5,
     name: "weather app",
     tech: "react js",
     img: weatherImg,
@@ -86,7 +86,7 @@ export const projectData = [
     code: "https://github.com/seanboss-bit/weather-app",
   },
   {
-    id: 4,
+    id: 6,
     name: "photography",
     tech: "next js",
     img: photoImg,
@@ -98,7 +98,7 @@ export const projectData = [
     code: "https://github.com/seanboss-bit/nextjs-portfolio",
   },
   {
-    id: 5,
+    id: 7,
     name: "netflix ui",
     tech: "react js",
     img: netflixImg,
