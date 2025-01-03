@@ -8,8 +8,6 @@ import { useEffect, useState } from "react";
 
 const Index = () => {
   const [data, setData] = useState(projectData);
-  const [demo, setDemo] = useState("/");
-  const [code, setCode] = useState("/");
   const router = useRouter();
   const { id } = router.query;
   let isMatch = data.find((item) => {
@@ -17,31 +15,6 @@ const Index = () => {
       return item;
     }
   });
-
-  useEffect(() => {
-    if (id == 1) {
-      setDemo(`${projectData[0].demo}`);
-      setCode(`${projectData[0].code}`);
-    } else if (id == 2) {
-      setDemo(`${projectData[1].demo}`);
-      setCode(`${projectData[1].code}`);
-    } else if (id == 3) {
-      setDemo(`${projectData[2].demo}`);
-      setCode(`${projectData[2].code}`);
-    } else if (id == 4) {
-      setDemo(`${projectData[3].demo}`);
-      setCode(`${projectData[3].code}`);
-    } else if (id == 5) {
-      setDemo(`${projectData[4].demo}`);
-      setCode(`${projectData[4].code}`);
-    } else if (id == 5) {
-      setDemo(`${projectData[5].demo}`);
-      setCode(`${projectData[5].code}`);
-    } else if (id == 5) {
-      setDemo(`${projectData[6].demo}`);
-      setCode(`${projectData[6].code}`);
-    }
-  }, [id]);
 
   return (
     <div className="w-full">
@@ -71,10 +44,10 @@ const Index = () => {
           <h2 className="capitalize">overview</h2>
           <p className="capitalize my-3">{isMatch?.projectInfo}</p>
 
-          <Link href={demo} target="_blank">
+          <Link href={isMatch.demo} target="_blank">
             <button className="px-8 py-2 mr-8 capitalize">demo</button>
           </Link>
-          <Link href={code} target="_blank">
+          <Link href={isMatch.code} target="_blank">
             <button className="px-8 py-2 capitalize">code</button>
           </Link>
         </div>

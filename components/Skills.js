@@ -12,6 +12,7 @@ import sassImg from "../public/images/sass.png";
 import tailwindImg from "../public/images/tailwind.png";
 import muiImg from "../public/images/mui.png";
 import reduxImg from "../public/images/redux.png";
+import framerImg from "../public/images/motion.png";
 
 const Skills = () => {
   const skill = [
@@ -48,20 +49,16 @@ const Skills = () => {
       name: "github",
     },
     {
-      img: bootstrapImg,
-      name: "bootstrap",
-    },
-    {
-      img: sassImg,
-      name: "sass",
+      img: reactImg,
+      name: "react native",
     },
     {
       img: tailwindImg,
       name: "tailwind",
     },
     {
-      img: muiImg,
-      name: "material ui",
+      img: framerImg,
+      name: "framer motion",
     },
     {
       img: reduxImg,

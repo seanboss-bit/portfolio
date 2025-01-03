@@ -1,10 +1,9 @@
 import realEstate from "./public/images/Screenshot1.png";
-import huluImg from "./public/images/Screenshot2.png";
 import weatherImg from "./public/images/Screenshot3.png";
-import netflixImg from "./public/images/Screenshot4.png";
 import photoImg from "./public/images/Screenshot5.png";
-import manageImg from "./public/images/Screenshot6.png";
 import paraImg from "./public/images/Screenshot7.png";
+import instantImg from "./public/images/Screenshot131.png";
+import dImg from "./public/images/Screenshot1311.png";
 
 export const projectData = [
   {
@@ -24,20 +23,8 @@ export const projectData = [
       "mongodb",
       "nodemailer",
     ],
-    demo: "https://paraplug.netlify.app/",
+    demo: "https://para-plug.vercel.app",
     code: "https://github.com/seanboss-bit/para-plug",
-  },
-  {
-    id: 2,
-    name: "manage ui",
-    tech: "html",
-    img: manageImg,
-    overviewTech: "tailwind cli",
-    projectInfo:
-      "this is a ui built with html , css and tailwind with vanilla javascript",
-    technologies: ["html", "css", "javascript", "tailwind"],
-    demo: "https://melodic-sawine-da82ca.netlify.app",
-    code: "https://github.com/seanboss-bit/manage-design",
   },
   {
     id: 3,
@@ -58,20 +45,8 @@ export const projectData = [
       "stripe API",
       "nodemailer",
     ],
-    demo: "https://abhomes.netlify.app",
+    demo: "https://ab-homes.vercel.app/",
     code: "https://github.com/seanboss-bit/ab-homes",
-  },
-  {
-    id: 4,
-    name: "hulu UI",
-    tech: "next js",
-    img: huluImg,
-    overviewTech: "next js / TMDB / tailwind",
-    projectInfo:
-      "this is a hulu ui designed with next js and using the TMDB api users are able to get movies based on genre and when they click on the immage there it routes them to the page to get more info on that particular movie. using next pwa users are able to download the website data on their device",
-    technologies: ["next js", "TNDB", "tailwind", "next-pwa", "javascript"],
-    demo: "https://huluclonelatest.netlify.app",
-    code: "https://github.com/seanboss-bit/hulu-next-clone",
   },
   {
     id: 5,
@@ -82,7 +57,7 @@ export const projectData = [
     projectInfo:
       "this app allows users to type in their location and get the weather upadate using the open weather API. this app is also pwa so users can download the website on their phones. this was my first attempt using pwa",
     technologies: ["react js", "css", "javascript", "open weather API"],
-    demo: "https://weather-boss.netlify.app",
+    demo: "https://weather-app-lyart-iota-17.vercel.app/",
     code: "https://github.com/seanboss-bit/weather-app",
   },
   {
@@ -94,19 +69,37 @@ export const projectData = [
     projectInfo:
       "this is a photography ui in which you can contact the photographer and send messages to him. also look at some of his works and his history as a photographer.",
     technologies: ["next js", "tailwind"],
-    demo: "https://seannextfirst.netlify.app",
+    demo: "https://nextjs-portfolio-nine-hazel-80.vercel.app/",
     code: "https://github.com/seanboss-bit/nextjs-portfolio",
   },
   {
     id: 7,
-    name: "netflix ui",
-    tech: "react js",
-    img: netflixImg,
-    overviewTech: "react js / react youtube API",
+    name: "Instant T Laundry",
+    tech: "React JS ",
+    img: instantImg,
+    overviewTech: "React JS / vite / tailwind ",
     projectInfo:
-      "this app was built using react and allows users to watch trailers of the movie selected and the showcase changes background image title and overview when ever the user refreshes the page",
-    technologies: ["react js", "react-youtube", "javascript"],
-    demo: "https://netflix-you.netlify.app",
-    code: "https://github.com/seanboss-bit/netflix",
+      "A Laundry Service Website is an online designed to simplify laundry and dry-cleaning services for customers. The website allows users to schedule pickups, track orders, and make payments seamlessly. Goal: To offer a user-friendly, efficient, and reliable platform that simplifies laundry management and enhances customer satisfaction. 🚀",
+    technologies: ["react js", "tailwind", "node js", "email js", "mongodb"],
+    demo: "https://instant-t-laundry.vercel.app/",
+    code: "https://github.com/seanboss-bit/instant-t-laundry",
+  },
+  {
+    id: 8,
+    name: "3d Portfolio",
+    tech: "React JS",
+    img: dImg,
+    overviewTech: "React JS / Three Js",
+    projectInfo:
+      "A 3D Portfolio Website which is interactive and visually immersive platform designed to showcase an individual’s or agency’s work using 3D elements and animations. It provides an engaging experience that captivates visitors while highlighting projects, skills, and achievements.Goal:To create a visually striking and engaging digital space that leaves a lasting impression while effectively showcasing skills and projects. 🚀",
+    technologies: [
+      "react js",
+      "tailwind",
+      "email js",
+      "Three Js",
+      "React three fibre",
+    ],
+    demo: "https://my-portfolio-xi-indol-16.vercel.app/",
+    code: "https://github.com/seanboss-bit/my_portfolio",
   },
 ];
