@@ -44,10 +44,10 @@ const Index = () => {
           <h2 className="capitalize">overview</h2>
           <p className="capitalize my-3">{isMatch?.projectInfo}</p>
 
-          <Link href={isMatch.demo} target="_blank">
+          <Link href={isMatch?.demo} target="_blank">
             <button className="px-8 py-2 mr-8 capitalize">demo</button>
           </Link>
-          <Link href={isMatch.code} target="_blank">
+          <Link href={isMatch?.code} target="_blank">
             <button className="px-8 py-2 capitalize">code</button>
           </Link>
         </div>
