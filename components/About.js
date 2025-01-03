@@ -16,10 +16,9 @@ const About = () => {
           <h2 className="py-4 capitalize text-center sm:text-left">who i am</h2>
           <p className="py-2 text-gray-600 capitalize">
             my full name is sean abubakar musa. i am a student studying computer
-            science at nigrian police academy in kano. i am currently studying
-            for my bachelor's degree in computer science. i learnt full stack
-            web development at an instiution called projaro and i have coding
-            for 4 years now. and i don't plan on stopping anytime soon. i am
+            science at police academy, kano, Nigeria. i learnt full stack
+            web development at an instiution called projaro and i have been coding
+            for more than 4 years now. and i don't plan on stopping anytime soon. i am
             always very enthusiastic for any project i am given because it gives
             me the opportunity to learn more.
           </p>

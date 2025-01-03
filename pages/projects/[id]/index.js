@@ -4,7 +4,7 @@ import { RiRadioButtonFill } from "react-icons/ri";
 import { useRouter } from "next/router";
 import { projectData } from "../../../projectsData";
 import Head from "next/head";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 const Index = () => {
   const [data, setData] = useState(projectData);
