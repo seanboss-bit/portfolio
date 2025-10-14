@@ -4,6 +4,8 @@ import photoImg from "./public/images/Screenshot5.png";
 import paraImg from "./public/images/Screenshot7.png";
 import instantImg from "./public/images/Screenshot131.png";
 import dImg from "./public/images/Screenshot1311.png";
+import gflImg from "./public/images/Screenshot169.png";
+import pulseImg from "./public/images/kayi.png";
 
 export const projectData = [
   {
@@ -17,9 +19,9 @@ export const projectData = [
     technologies: [
       "next js",
       "paystack",
-      "javascript",
-      "css",
-      "redux",
+      "typescript",
+      "tailwind",
+      "zustand",
       "mongodb",
       "nodemailer",
     ],
@@ -101,5 +103,35 @@ export const projectData = [
     ],
     demo: "https://my-portfolio-xi-indol-16.vercel.app/",
     code: "https://github.com/seanboss-bit/my_portfolio",
+  },
+  {
+    id: 9,
+    name: "Green Family Loan",
+    tech: "React JS",
+    img: gflImg,
+    overviewTech: "React JS",
+    projectInfo:
+      "A Responsive Web Applications where Users can come, register and have an account to take loans",
+    technologies: ["react js", "tailwind", , "framer motiion"],
+    demo: "https://green-family-loan-6nha.vercel.app/",
+    code: "https://github.com/seanboss-bit/green-family-loan",
+  },
+  {
+    id: 10,
+    name: "Kayi Mall",
+    tech: "Next JS",
+    img: pulseImg,
+    overviewTech: "Next JS ",
+    projectInfo:
+      "A Responsive Web application that allows users to shop for different products",
+    technologies: [
+      "react js",
+      "tailwind",
+      "next js",
+      "framer motion",
+      "React three fibre",
+    ],
+    demo: "https://kayi-mall.vercel.app/",
+    code: "https://github.com/seanboss-bit/green-family-loan",
   },
 ];
