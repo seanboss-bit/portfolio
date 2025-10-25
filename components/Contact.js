@@ -44,7 +44,7 @@ const Contact = () => {
                   </Link>
                   <Link
                     target="_blank"
-                    href={"https://wa.me/23409056760660"}
+                    href={"https://wa.me/23409035637185"}
                     download={true}
                     className="rounded-full shadow-md shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-150"
                   >
