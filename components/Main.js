@@ -18,10 +18,10 @@ const Main = () => {
             a fullstack web developer
           </h1>
           <p className="py-4 text-gray-600 max-w-[70% m-auto]">
-            i am a full stack web developer but i specialize mainly in buliding
-            (and ocassionally designing) exceptional digital experiences.
-            currently i am focused on improving myself while learning more
-            tecnologies for self-improvement.
+            I am a Full Stack Developer dedicated to building digital
+            experiences that blend performance, aesthetics, and purpose. I’m
+            always learning, improving, and creating solutions that make an
+            impact.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link
